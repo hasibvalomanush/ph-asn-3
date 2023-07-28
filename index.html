@@ -17,6 +17,20 @@
     .font-lato {
       font-family: 'Lato', sans-serif;
     }
+
+    /* css for team section background */
+    .team-bg {
+
+      background-image: url("./images/team.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      linear-gradient (to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+}
+    
+
+    /* css for team section background ends  */
   </style>
   <script>
     tailwind.config = {
@@ -291,60 +305,63 @@
           </dialog>
         </div>
       </div>
-        
+
     </section>
     <div class="flex justify-center items-center h-full mt-9">
       <button class="btn btn-error bg-primary-color text-white">Shop All</button>
     </div>
     <!-- card section ends -->
-  <!-- team section starts -->
-  <section>
-    <div class="mt-14">
-      <h1 class="md:text-5xl font-bold mb-3 text-center">Meet The Team Section</h1>
-      <p class="text-xs md:text-sm text-center">Contrary to popular belief, is not simply random text.It has roots in a piece
-        of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
-    </div>
-    <div class="">
-    <div class="grid  md:grid-cols-2 lg:grid-cols-4 grid-cols-4 mt-16">
-        <div class=" px-20 ">
-          <img src="./images/member1.png" alt="">
-          <h4>Awlad Hossain</h4>
-          <p>Fruits Expert</p>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          
+    <!-- team section starts -->
+    <section class="team-bg text-white">
+      <div class="mt-14">
+        <h1 class="md:text-5xl font-bold mb-3 text-center">Meet The Team Section</h1>
+        <p class="text-xs md:text-sm text-center">Contrary to popular belief, is not simply random text.It has roots in
+          a piece
+          of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+      </div>
+      <div class="">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 grid-cols-4 mt-16">
+          <div class=" px-20 ">
+            <img src="./images/member1.png" alt="">
+            <h4>Awlad Hossain</h4>
+            <p>Fruits Expert</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+          </div>
+          <div class="px-20">
+            <img src="./images/member2.png" alt="">
+            <h4>Safia Chowdhury</h4>
+            <p>Fruits Expert</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class=" px-20">
+            <img src="./images/member3.png" alt="">
+            <h4>Rakib Hossain</h4>
+            <p>Fruits Expert</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class=" px-20">
+            <img src="./images/member4.png" alt="">
+            <h4>Chaity</h4>
+            <p>Fruits Expert</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
         </div>
-        <div class="px-20">
-          <img src="./images/member2.png" alt="">
-          <h4>Safia Chowdhury</h4>
-          <p>Fruits Expert</p>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </div>
-        <div class=" px-20">
-          <img src="./images/member3.png" alt="">
-          <h4>Rakib Hossain</h4>
-          <p>Fruits Expert</p>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </div>
-        <div class=" px-20">
-          <img src="./images/member4.png" alt="">
-          <h4>Chaity</h4>
-          <p>Fruits Expert</p>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </div>
-    </div>
-    </div>
-  </section>
+      </div>
+    </section>
+    <!-- team section ends -->
   </main>
-  
+
   <footer>
+
 
   </footer>
 </body>
